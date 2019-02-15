@@ -17,7 +17,7 @@ public class ThreeSixNine {
 //				System.out.print("짝");
 //			}
 //-------------------------------------------
-			int mod = i%10;
+			int mod = i % 10;
 			if(mod==3 || mod==6 || mod==9) {
 				System.out.println("짝");
 			}else {
