@@ -1,9 +1,9 @@
 package oop.inherit;
 
-class Mother {
+class Mother1 {
 	int age = 60;
 	String name = "최경숙";
-	Mother() {
+	Mother1() {
 		System.out.println("난 엄마 생성자");
 	}
 	void attack() {
@@ -12,7 +12,7 @@ class Mother {
 }	 
 
 
-public class Extends1 extends Mother{
+public class Extends1 extends Mother1{
 	Extends1() {
 		System.out.println("난 확장 생성자!! ");
 		attack();
@@ -24,7 +24,7 @@ public class Extends1 extends Mother{
 		Extends1 e = new Extends1();
 		e.eat();
 		
-		Mother m = new Mother();
+		Mother1 m = new Mother1();
 //		m.eat();
 	}
 }
