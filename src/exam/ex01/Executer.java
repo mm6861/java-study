@@ -19,6 +19,7 @@ public class Executer {
 		s1.printInfo();	
 //		obj.printInfo();
 		
+		
 		Object[] objs = new Object[3];
 		objs[0] = obj;
 		objs[1] = f3;

@@ -14,6 +14,8 @@ public class Methods {
 		System.out.println(str);
 	}
 	
+	
+	
 	public static void main(String[] args) {
 		setStr("abc");
 		String str = getStr();
