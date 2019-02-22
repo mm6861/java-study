@@ -12,10 +12,10 @@ public class MultiDimension {
 			md.nums[i] = new int[i+1];
 			System.out.println(i + "층의 방의 갯수: "+ md.nums[i].length);
 		}
-		int num = 1;
+		int num = 0;
 		for(int i=0;i<md.nums.length;i++) {
 			for(int j=0;j<md.nums[i].length;j++) {
-				md.nums[i][j] = num++; // 후위연산자!!!!!! 찍고 연산
+				md.nums[i][j] = ++num; // num = num+1
 			}
 		}
 		for(int i=0;i<md.nums.length;i++) {
@@ -27,21 +27,6 @@ public class MultiDimension {
 		}
 	
 		
-//		md.nums[0][0] = 1;
-//		
-//		for(int i=1;i<md.nums.length;i++) {
-//			md.tmp += md.nums[i-1].length;
-//			
-//			int num = i + md.tmp;
-//			
-//			for(int j=0;i<md.nums[i].length;j++) {
-//				md.nums[i][j] = a;
-//				a++;
-//				
-//				
-//			}
-//		}
-//		System.out.println(md.nums[3][3]);
 	}
 
 }

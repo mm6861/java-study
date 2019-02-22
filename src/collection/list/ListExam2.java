@@ -17,5 +17,8 @@ public class ListExam2 {
 		for(int i=0;i<=9;i++) {
 			System.out.println(numList.get(i));
 		}
+		
+		int num;
+		
 	}
 }
