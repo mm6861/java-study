@@ -11,6 +11,7 @@ public class MapExam2 {
 		map.put("주소","전라도 광주");
 		map.put("직업","도적");
 		System.out.println(map);
+		
 		Set<String> keys = map.keySet();
 		System.out.println(keys.size());
 		for(String key:keys) {

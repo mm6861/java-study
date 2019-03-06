@@ -25,7 +25,7 @@ public class TypeGeneric<T>{
 		TypeGeneric<Integer> tg = new TypeGeneric<>();
 		// 이제 위에 <T>는 Integer가 되는거임
 		tg.setT(123);
-		Integer i = tg.getT();
+//		Integer i = tg.getT();
 		tg.setO("abc");
 		String o = (String)tg.getO();
 	

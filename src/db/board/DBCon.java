@@ -10,6 +10,7 @@ public class DBCon {
 	private static final String PASSWORD = "12345678";
 	private static Connection con;
 	
+	
 	public static Connection getCon() {
 		if(con==null) {
 			//처음호출 전화검
